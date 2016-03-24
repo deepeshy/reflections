@@ -1,0 +1,11 @@
+the diff shows the most recent changes and hence the bug has to be somewhere in that.
+
+Having the history of all the changes made to a file, you can easily go back to a specific behavior that existed. Rollbacks are easy. You can also go back and check the evolution of a codebase to understand certain decisions.
+
+
+Multiple files bunched together in a commit makes sense for situations where there are changes across files that are related and won't make sense in isolation. Most common usecase would be a code repository where individual files will leave the code in potentially un-usable state.
+
+Git log - gives a history of commits, there ids, commit messages etc
+git diff between two version can show what changed between two versions
+
+Version control allows you to save snapshots of your working code and hence you can be a lot more confident in experimenting with your changes
