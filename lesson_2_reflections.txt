@@ -1,0 +1,1 @@
+staging area is to group a logical unit of changes out of all the changes in your working directory
